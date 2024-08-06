@@ -1,0 +1,48 @@
+.browse {
+    position: absolute;
+    width: calc(100% - 4rem);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.container {
+
+    transform: translateY(26rem);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 0.0rem;
+
+    /* overflow: hidden; */
+    overflow-y: scroll;
+
+}
+
+.pages {
+    position: relative;
+    z-index: 100;
+
+    top: -12rem;
+    right: -6rem;
+    height: 2rem;
+    width: calc(100% - 11rem);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.pageButtons {
+    margin: 0 1rem;
+}
+
+.pageButtonsDez {
+    margin: 0 1rem;
+    pointer-events: none;
+    opacity: 0.5;
+}

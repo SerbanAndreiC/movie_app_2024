@@ -1,0 +1,37 @@
+.card{
+    box-sizing: border-box;
+    width: 15rem;
+    height: 8rem;
+    position: relative;
+    margin: 0.15rem 0.15rem;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    cursor: pointer;
+} 
+.card img{
+    padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+    width: 15rem;
+    height: 7.5rem;
+    border-radius: 0.9rem;
+    
+}
+.titleContainer{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    bottom: 0rem;
+    border-radius: 0.5rem;
+}
+.card .title{
+    color: rgba(253,253,253,1);
+    font-size: 1rem;
+    left: 1rem;
+    padding: 0 1rem;
+}

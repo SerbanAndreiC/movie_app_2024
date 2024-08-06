@@ -1,0 +1,147 @@
+.main {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0rem;
+    color: white;
+    display: flex;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.menu {
+    position: absolute;
+    /* background-color: blueviolet; */
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.option {
+    margin: 1rem 0rem 0rem 1rem;
+    max-width: 8rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+}
+
+.optionSample {
+    width: 4rem;
+    height: 2rem;
+    margin: 1rem 0rem 0rem 1rem;
+    display: flex;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+}
+
+.option:nth-child(1),
+.optionSample:nth-child(1) {
+    margin-top: 2rem;
+}
+
+.option:nth-child(2),
+.optionSample:nth-child(2) {
+    margin-top: 5rem;
+}
+
+.option:nth-child(5),
+.optionSample:nth-child(5) {
+    margin-top: 20rem;
+}
+
+.description,
+.descriptionNone {
+    color: white;
+    margin-left: 3.5rem;
+    font-size: 14px;
+    width: 5rem;
+    display: flex;
+    align-items: start;
+    opacity: 1;
+    cursor: pointer;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s ease-in-out;
+}
+
+.descriptionNone {
+    display: none;
+    opacity: 0;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s ease-in-out;
+}
+
+.menuButton,
+.colapsButton {
+    position: absolute;
+    margin-left: 0.75rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.colapsButtonR {
+    transform: rotate(180deg);
+    position: absolute;
+    margin-left: 0.75rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+.logOutButton{
+    cursor: pointer;
+    position: absolute;
+    margin-left: 0.5rem;
+    width: 1.7rem;
+    height: 1rem;
+    transition: 0.5s ease-in-out;
+    transform: translateY(-0.45rem);
+}
+
+.active {
+    background: rgba(215, 234, 191, 0.3);
+    box-shadow: 0px 0px 14px 4px rgba(215, 234, 191, 0.4);
+}
+
+.data,
+.dataSmall {
+    position: absolute;
+    transform: translateX(4rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100vw - 4rem);
+    z-index: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.dataSmall {
+    width: calc(100vw - 9rem);
+    transform: translateX(9rem);
+    transition: 0.5s ease-in-out;
+}
+.profile {
+    position: absolute;
+    margin-left: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    z-index: 2;
+    cursor: pointer;
+}
+.details{
+    position: absolute;
+    opacity: 1;
+    z-index: 20;
+    transition: 0.5 ease-in-out;
+}

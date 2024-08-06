@@ -1,0 +1,56 @@
+.background{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 1);
+}
+.backContainer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.1);
+    backdrop-filter: blur(1rem);
+    overflow:hidden;
+  }
+  .back1{
+    position: fixed;
+    top:65vh ;   
+    left:80%;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background:rgb(129, 121, 7);
+  }
+  .back2{
+    position: fixed;
+    top:-3rem;   
+    left:-1.5rem;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    background: rgba(253, 0, 0, 0.35);
+  }
+  .back3{
+    position: fixed;
+    top:55vh;   
+    left:3rem;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    background:rgba(27, 129, 4, 0.6);
+    
+  } 
+  .back4{
+    position: fixed;
+    top:-5vh;   
+    right:10rem;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    background:rgba(48, 103, 231, 0.7);
+  }
